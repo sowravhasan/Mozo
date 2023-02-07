@@ -1,0 +1,490 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,500;0,800;1,600&display=swap');
+
+* {
+
+    font-family: 'Barlow', sans-serif;
+}
+
+.dark-mode {
+    background-color: #222222!important;
+    color: white;
+}
+.form-dark{
+    background-color: #454545!important;
+}
+.text-white {
+    color: white;
+}
+
+.area-dark-mode {
+    background-color: #303030 !important;
+    color: white;
+}
+
+.profile-card-dark-mode {
+    background-color: #222222!important;
+    color: white;
+}
+
+
+
+/*  navbar css code starts from here */
+
+
+header {
+    width: 100%;
+    background-color: #FCFFFC;
+    padding-top: 10px;
+    padding-bottom: 30px;
+
+}
+
+.logo {
+
+    width: 137px;
+    height: 46.43px;
+
+}
+
+.navbar-links a {
+
+    margin: 0px 22px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.navbar-buttons button {
+    margin-right: 20px;
+
+}
+
+.signUp-button {
+    margin-left: 56px;
+    background-color: #065900;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    outline: none;
+    height: 50px;
+    width: 173px;
+    left: 388px;
+    top: 0px;
+    border-radius: 14px;
+    border: none;
+}
+
+.login-button {
+    background-color: #FFFFFF;
+    color: #065900;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    outline: none;
+    height: 50px;
+    width: 173px;
+    left: 388px;
+    top: 0px;
+    border-radius: 14px;
+    border: 2px solid #065900;
+}
+
+/*  navbar css code ends here */
+/* hero section css code starts from here */
+
+/* hero left side code starts here */
+.hero-container {
+    margin-top: 130px;
+    width: 100%;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-content {
+    width: 40%;
+}
+
+.text-content h1 {
+    font-size: 50px;
+    font-weight: 500;
+    
+}
+
+.highlight-text {
+    color: #065900;
+}
+
+.short-desc {
+    font-size: 20px;
+    line-height: 24px;
+    margin-top: 20px;
+    margin-bottom: 70px;
+    font-weight: 500;
+}
+
+.user-icon {
+    margin-right: 16px;
+    margin-bottom: 14px;
+}
+
+.user-form {
+    width: 100%;
+    height: 98px;
+    background-color: #E3EEE3;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 14px;
+    padding: 0px 10px;
+
+}
+
+.user-container {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.user-container p {
+    font-size: 18px;
+    font-weight: 500;
+    color: #065900;
+}
+.input-container{
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.user-form input {
+    width: 300px;
+    height: 50px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 11px;
+    padding: 0px 15px;
+}
+
+.user-form button {
+    border: none;
+    background-color: #065900;
+    margin-left: 20px;
+    width: 90px;
+    height: 50px;
+    font-weight: 500;
+    border-radius: 11px;
+    color: #FFFFFF;
+}
+
+.user-form input:focus {
+    outline: none;
+}
+
+.appstore-img {
+    margin-right: 20px;
+}
+
+/*  hero left side code ends here */
+
+/* hero banner side codes starts here */
+.banner-content {
+    width: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-image {
+    width: 600px;
+}
+
+/* hero banner side codes ends here */
+
+/* hero section css code ends here */
+
+/* content area section css */
+.bg-gray {
+    background-color: #E4EFE3;
+}
+
+.content-logo img {
+    width: 80px;
+}
+
+.content-top h3 {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.content-top p {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.content-logo h6 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.content-logo p {
+    font-weight: 500;
+}
+
+/* create profile section start from here */
+
+.profile-content-container {
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    display: flex;
+
+}
+
+.profile-container {
+    padding: 50px 0px;
+}
+
+.profile-banner-image {
+    width: 45%;
+    position: relative;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    border-radius: 35px;
+}
+
+.sub-cover-container {
+    width: 188px;
+    height: 215px;
+    position: absolute;
+    left: 75%;
+    top: 60%;
+    background: #FFFFFF;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.mini-profile-container {
+    display: flex;
+    align-items: center;
+}
+
+.mini-name {
+    margin-left: 12px;
+    font-weight: 500;
+}
+
+.mini-text {
+    margin-top: 10px;
+    font-size: 10px;
+}
+
+.cover-pic {
+    width: 100%;
+    height: 50%;
+
+}
+
+.cover-pic img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.profile-name {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 26px;
+    margin-bottom: 20px;
+}
+
+.profile-desc {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 26px;
+    color: rgba(0, 0, 0, 0.747);
+}
+
+.profile-content {
+    padding-left: 20px;
+    width: 370px;
+    height: 320px;
+    position: absolute;
+    top: 35%;
+}
+
+.profile-image {
+    margin-bottom: 40px;
+}
+
+
+.coverName {
+    position: absolute;
+    top: 30%;
+    right: 3%;
+
+}
+
+.services {
+    margin-bottom: 50px;
+}
+
+.service {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+}
+
+.service-icon {
+    margin-right: 16px;
+    margin-bottom: 14px;
+}
+
+.service p {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+/* create profile section ends  here */
+/* achievement section css */
+.achievement-icon img {
+    width: 60px;
+}
+
+.achievement-text {
+    margin-left: 20px
+}
+
+.achievement-text p {
+    font-weight: 500;
+}
+
+.user-main-container {
+    width: 500px;
+    margin: 0px auto;
+}
+
+.user-icon {
+    margin-right: 16px;
+    margin-bottom: 14px;
+}
+
+.achive-user-form {
+    width: 100%;
+    height: 98px;
+    background-color: #065900;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 14px;
+
+}
+
+.achive-user-container {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.achive-user-container p {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.achive-user-form input {
+    width: 300px;
+    height: 50px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 11px;
+    padding: 0px 15px;
+}
+
+.achive-user-form button {
+    border: none;
+    background-color: #FFFFFF;
+    margin-left: 20px;
+    width: 90px;
+    height: 50px;
+    font-weight: 500;
+    border-radius: 11px;
+    color: #065900;
+}
+
+.achive-user-container {
+    color: #065900;
+}
+
+.achive-user-form input:focus {
+    outline: none;
+}
+
+
+/* footer area css */
+.footer {
+    overflow: hidden;
+    background: #000;
+}
+
+.footer-logo img {
+    width: 100px;
+}
+
+.social-icon img {
+    width: 40px;
+    margin-right: 10px;
+}
+
+.theme img {
+    width: 170px;
+    margin-right: 20px;
+}
+
+.footer-right li {
+    list-style: none;
+    margin-bottom: 15px;
+}
+
+.footer-right li a {
+    text-decoration: none;
+    color: #474747;
+    font-weight: 500;
+}
+
+#darkmood-btn {
+    cursor: pointer;
+}
+
+.about {
+    color: #fff !important;
+    font-size: 18px;
+    font-weight: 600 !important;
+    padding-bottom: 20px !important;
+}
+
+.link a {
+    color: #fff !important;
+    font-size: 18px;
+    font-weight: 600 !important;
+}
+
+.h-line {
+    border-top: 1px solid #474747;
+}
+
+.bottom-text h6 {
+    font-weight: 500 !important;
+    color: #474747;
+}
